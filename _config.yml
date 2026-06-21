@@ -1,0 +1,30 @@
+title: WebApplications.ca
+description: Modern app development, explained.
+url: ""
+baseurl: ""
+markdown: kramdown
+
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections for future expansion
+collections:
+  guides:
+    output: true
+    permalink: /guides/:name/
+  roles:
+    output: true
+    permalink: /roles/:name/
+  patterns:
+    output: true
+    permalink: /patterns/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
